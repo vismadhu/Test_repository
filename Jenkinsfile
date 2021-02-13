@@ -12,7 +12,7 @@ pipeline
        url: 'https://github.com/vismadhu/Test_repository.git'
 	 }
 	}
-	stage{'maven build')
+	stage('maven build')
 	{
 	  steps
 	  {
@@ -22,5 +22,5 @@ pipeline
 		 }
 	  }
 	}
-   }
   }
+}
